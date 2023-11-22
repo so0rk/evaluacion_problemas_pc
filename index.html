@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Problemas</title>
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+
+  <h2>Registro de Problemas</h2>
+
+  <label for="numeroComputadora">Número de Computadora:</label>
+  <input type="number" id="numeroComputadora">
+
+  <label for="problema">Descripción del Problema:</label>
+  <input type="text" id="problema">
+
+  <button onclick="agregarProblema()">Agregar Problema</button>
+
+  <h3>Lista de Problemas</h3>
+  <ul id="listaProblemas"></ul>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
